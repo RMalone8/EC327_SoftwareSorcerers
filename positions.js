@@ -236,7 +236,7 @@ const button_fishing_activation_img = 'sprites/fishing_activation.png';
 const button_aquarium_img = 'sprites/Tank_Sign.png';
 const button_username_img = 'sprites/username_button.png';
 const button_login_img = 'sprites/Login_Button.png';
-const button_save_img = 'sprites/The_Save_button.png';
+const button_save_img = 'sprites/The_Save_Button.png';
 const button_go_img = 'sprites/go_button.png';
 
 // Backgrounds
