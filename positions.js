@@ -326,7 +326,7 @@ const rules_background = new Background({x: 100, y: 0, width: 1200, height: 600,
 const button_score_to_caught = new Button(button_score_to_caught_pos, button_go_img, 3);
 
 // Bubble Mini Game Items
-const timer_bubble = new Timer(timer_bubble_pos, 15, "transitioning");
+const timer_bubble = new Timer(timer_bubble_pos, 10, "transitioning");
 const generic_background = new Background(menu_background_pos, generic_background_img);
 
 // Minefield Mini Game Items
