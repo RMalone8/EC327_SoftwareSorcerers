@@ -101,8 +101,32 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 4,
         rarity: [4, 4, 4]
     },
-    // Detailed
     7: {
+        img: "sprites/fish/Detailed_2-bluegreenpuffer-Sheet.png",
+        sWidth: 320,
+        sHeight: 320,
+        frames: 32,
+        speed: 2,
+        rarity: [4, 4, 4]
+    },
+    8: {
+        img: "ssprites/fish/Detailed_2-rainbowpuffer-Sheet.png",
+        sWidth: 320,
+        sHeight: 320,
+        frames: 32,
+        speed: 2,
+        rarity: [4, 4, 4]
+    },
+    9: {
+        img: "sprites/fish/Detailed_2puffer-Sheet.png",
+        sWidth: 320,
+        sHeight: 320,
+        frames: 32,
+        speed: 2,
+        rarity: [4, 4, 4]
+    },
+    // Detailed
+    10: {
         img: "sprites/fish/Detailed_3-YellowPurplePirahna_Swim-Sheet.png",
         sWidth: 320,
         sHeight: 320,
@@ -110,7 +134,15 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 2,
         rarity: [3, 3, 3]
     },
-    8: {
+    11: {
+        img: "sprites/fish/Detailed_3-RedOrangePirahna_Swim-Sheet.png",
+        sWidth: 320,
+        sHeight: 320,
+        frames: 11,
+        speed: 2,
+        rarity: [3, 3, 3]
+    },
+    12: {
         img: "sprites/fish/redfirefish.png",
         sWidth: 1584,
         sHeight: 528,
@@ -118,7 +150,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 2,
         rarity: [3, 3, 3]
     },
-    9: {
+    13: {
         img: "sprites/fish/purplefirefish.png",
         sWidth: 1584,
         sHeight: 528,
@@ -126,7 +158,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 2,
         rarity: [3, 3, 3]
     },
-    10: {
+    14: {
         img: "sprites/fish/greenfirefish.png",
         sWidth: 1584,
         sHeight: 528,
@@ -134,7 +166,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 2,
         rarity: [3, 3, 3]
     },
-    11: {
+    15: {
         img: "sprites/fish/Detailed_3-RainbowPirahna_Swim-Sheet.png",
         sWidth: 320,
         sHeight: 320,
@@ -143,7 +175,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         rarity: [3, 3, 3]
     },
     // Rare!
-    12: {
+    16: {
         img: "sprites/fish/Crazy_1_Swim-Sheet.png",
         sWidth: 800,
         sHeight: 480,
@@ -151,7 +183,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 3,
         rarity: [2, 2, 2]
     },
-    13: {
+    17: {
         img: "sprites/fish/seahorse.png",
         sWidth: 1056,
         sHeight: 1584,
@@ -159,7 +191,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 3,
         rarity: [2, 2, 2]
     },
-    14: {
+    18: {
         img: "sprites/fish/Crazy_Desgin_4-stormyLighting-Shark-Sheet.png",
         sWidth: 960,
         sHeight: 800,
@@ -167,7 +199,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 2,
         rarity: [2, 3, 4]
     },
-    15: {
+    19: {
         img: "sprites/fish/Crazy_Desgin_4-stormyShark-Sheet.png",
         sWidth: 331,
         sHeight: 276,
@@ -175,7 +207,7 @@ fish_types = { // For rarity, higher number is the most common. An array for dif
         speed: 3,
         rarity: [2, 3, 4]
     },
-    16: {
+    20: {
         img: "sprites/fish/Crazy_Design_3-RainySailfish-Sheet.png",
         sWidth: 800,
         sHeight: 640,
@@ -205,10 +237,10 @@ function weatherProbabilities(weather) // Returns an array full of the fish ids,
 
 function checkUpperRange(prob)
 {
-    return prob >= 12;
+    return prob >= 16;
 }
 
 function checkMiddleRange(prob)
 {
-    return prob >= 7 && prob <= 11;
+    return prob >= 10 && prob <= 15;
 }
