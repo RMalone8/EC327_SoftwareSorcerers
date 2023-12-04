@@ -134,9 +134,9 @@ function analyzeScore(score, minigame) // Returns the number of samples to take 
 {
     if (minigame == 7) // Bubble game
     {
-        if (score > 45)
+        if (score > 30)
             return 5;
-        else if (score > 20)
+        else if (score > 15)
             return 3;
         else
             return 1;
